@@ -1,4 +1,4 @@
-hi, this is a lua5.1 parser i've made.. usage is
+hi, this is a lua5.1 bytecode parser i've made.. usage is
 
 ```csharp
 byte[] file = File.ReadAllBytes(path);
