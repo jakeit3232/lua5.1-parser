@@ -5,7 +5,7 @@ using System.Security;
 
 class header
 {
-    public string signature;
+    public string signature; // 1B 4C 75 61
     public byte version; // 0x51 
     public byte format;
 }
