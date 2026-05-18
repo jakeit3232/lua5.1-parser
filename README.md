@@ -9,7 +9,6 @@ or if u wanna use the cli u can do
 
 ```
 dotnet run input.luac 
-orrr u can adjust the file path in Program.cs
 ```
 
 
