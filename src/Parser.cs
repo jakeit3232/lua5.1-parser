@@ -118,7 +118,7 @@ class Parser
         int count = 0;
         foreach (var c in constants)
         {
-            Console.WriteLine($"k[{count}]: {c}");
+            Console.WriteLine($"K[{count}]: {c}");
             count++;
         }
 
