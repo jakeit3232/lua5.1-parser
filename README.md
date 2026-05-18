@@ -1,16 +1,16 @@
 hi, this is a lua5.1 parser i've made.. usage is
 
-
-```
+```csharp
 byte[] file = File.ReadAllBytes(path);
-Parser.parser(file);```
-
-or if u wanna use the cli u can do 
-
-```
-dotnet run input.luac 
+Parser.parser(file);
 ```
 
+or if u wanna use the cli u can do
 
+```bash
+dotnet run input.luac
 ```
-var path = args.Length > 0 ? args[0] : "input.luac"; -- change the luac file to whatever u like```
+
+```csharp
+var path = args.Length > 0 ? args[0] : "input.luac"; // change the luac file to whatever u like
+```
